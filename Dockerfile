@@ -4,6 +4,7 @@ MAINTAINER CRISTIAN_CONTRERA <cristiancontrera95@gmail.com>
 WORKDIR /app
 
 COPY requirements.txt requirements.txt
+COPY data/Dataset-WinclapApp-TestDS.csv Dataset-WinclapApp-TestDS.csv
 COPY notebooks/Outliers.ipynb Outliers.ipynb
 
 RUN pip install --upgrade pip &&\

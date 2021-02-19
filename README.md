@@ -6,6 +6,7 @@ The purpose is detect outliers in a specific dataset using jupyter notebook as w
 
 ### Repository structure
 ```
+- data/: Contains csv file with dataset used
 - notebooks/: Contains a notebook with code required  
 - scripts/: Contains script for run notebook in a docker  
 - Dockerfile: File to compile docker image  
