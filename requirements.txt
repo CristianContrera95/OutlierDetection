@@ -1,3 +1,4 @@
 pandas
-seabor
-sklearn
+seaborn
+scikit-learn
+jupyterlab

@@ -18,4 +18,4 @@ In a linux console run:
 chmod +x scripts/*
 ./scripts/run_docker.sh
 ```
-
+then copy-paste the link showed by screen.

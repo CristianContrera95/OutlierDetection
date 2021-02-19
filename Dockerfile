@@ -11,4 +11,4 @@ RUN pip install --upgrade pip &&\
 
 EXPOSE 8888
 
-CMD ["jupyter", "lab", "Outliers.ipynb"]
+CMD ["jupyter", "lab", "Outliers.ipynb", "--allow-root", "--ip=0.0.0.0", "--no-browser"]
